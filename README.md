@@ -10,8 +10,13 @@ For an industry where customer acquisition and retention are equally important, 
 - Statistic data description using Pandas,Numpy librarys in Python.
 - Data was slpit in 30% test and 70% train subsets.
 - Logistic Regression, Random Forest, Support Vector Machine and Neural Netowrk were used.
+- Grid Search for parameter tuning.
 - SMOTE and ADASYN were used for oversampling.
 
 ## Result
 ### Customer Distribution
 ![捕获](https://user-images.githubusercontent.com/72762392/102912991-1d9d8d80-444c-11eb-8a9a-b94377e127ca.JPG)
+
+### Classification Report
+Because this is an imbalanced dataset, only accruacy couldn't be used as model evaulation. We are more interested in F1 score.
+Before applying any resampling methods, our F1 score is around 0.4 - 0.48.
