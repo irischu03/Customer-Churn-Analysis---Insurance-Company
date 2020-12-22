@@ -21,4 +21,5 @@ For an industry where customer acquisition and retention are equally important, 
 Because this is an imbalanced dataset, only accruacy couldn't be used as model evaulation. We are more interested in F1 score.
 Before applying any resampling methods, our F1 score is around 0.4 - 0.48.
 Using SMOTE, we improved F1 score to 0.51.
+
 ![image](https://user-images.githubusercontent.com/72762392/102917190-bd5e1a00-4452-11eb-9b20-dcaece4d67df.png)
